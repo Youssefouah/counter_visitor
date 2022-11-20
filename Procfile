@@ -1,1 +1,1 @@
-web:gunicorn -w 4 -k uvicorn.worlers.UvicornWorker test_fast:app
+web:gunicorn -w 4 -k uvicorn.workers.UvicornWorker test_fast:app

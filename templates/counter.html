@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Increment Decrement Counter</title>
+    <link href="{{ url_for('static',path='/style.css')}}" rel="stylesheet">
+    <script src="{{ url_for('static',path='/main.js')}}" defer></script>
+</head>
+
+<body>
+    <div class="container11" style="text-align: center;align-items: center;justify-content: center;margin-top: 20%;">
+        <div id="increment-count">
+          <input type="image" id="up-arrow" src="{{ url_for('static',path='/up.png')}}"  width="150px"/>
+        </div>
+        <div id="total-count" style="font-size:70px ;">
+        </div>
+        <div id="decrement-count">
+          <input type="image" id="down-arrow" src="{{ url_for('static',path='/down.png')}}"  width="150px"/>
+        </div>
+    </div>
+</body>
+
+</html>

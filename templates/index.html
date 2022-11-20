@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Counter</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <script>
+          document.addEventListener("DOMContentLoaded", function(event) {
+
+// Do the automatic refresh
+            window.setTimeout(function(){
+          document.location.reload(true);
+          }, 3500);  
+// Test the refresh by outputting the time in milliseconds
+           var f = localStorage.getItem("newr")
+           document.getElementById('total').innerHTML = f.toString();
+
+});
+
+    </script>
+    <!-- <script src="{{ url_for('static',path='/main.js')}}" defer></script> -->
+  </head>
+
+  <body >
+      <div id="total" style="text-align: center;align-items: center;justify-content: center;margin-top: 20%;font-size: 150px;">
+      </div>
+  </body>
+</html>

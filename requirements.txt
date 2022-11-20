@@ -12,7 +12,6 @@ cachetools==5.0.0
 certifi==2022.6.15
 chardet==4.0.0
 click==8.0.3
-colorama==0.4.4
 command-not-found==0.3
 cryptography==3.4.8
 cupshelpers==1.0

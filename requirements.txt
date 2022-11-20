@@ -1,6 +1,5 @@
 altgraph==0.17.2
 anyio==3.6.2
-apturl==0.5.2
 asgiref==3.5.2
 async-generator==1.10
 attrs==22.1.0
